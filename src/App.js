@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import visualizer from './visualizer/visualizer';
+import Visualizer from './Visualizer/Visualizer';
 
 function App() {
   return (
     <div className="App">
-      <visualizer></visualizer>
+      <Visualizer></Visualizer>
     </div>
   );
 }
